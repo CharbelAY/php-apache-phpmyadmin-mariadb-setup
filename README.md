@@ -14,7 +14,7 @@
 8. restart apache using service apache2 reload
 9. website is accessible now navigate to http://bigcompaemployees.testingapp:8085/ and phpmyadmin is accessible on http://localhost:8086/ username is root and password is example
 
-### N.B: your local host will not know that bigcompaemployees.testingapp maps to 127.0.0.1 so you need to change the hosts folder in your host on mac do :
+### N.B: your local host will not know that bigcompaemployees.testingapp maps to 127.0.0.1 so you need to change the hosts file in your host on mac do :
 1. cd /etc
 2. sudo vim hosts
 3. add at the end 127.0.0.1 bigcompaemployees.testingapp
